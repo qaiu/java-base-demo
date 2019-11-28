@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #d1{
+            width: 150px;
+            height: calc(10*10)px;
+            border: 1px solid red;
+            text-align: center;
+            /*
+            文本修饰符
+            underline 下划线
+            overline 上划线
+            line-through 删除线 */
+            text-decoration: overline;
+            line-height: 50px;
+            font-size: 30px;
+        }
+        #d2{
+            /* 设置宽高 背景颜色*/
+            width: 200px;
+            height: 80px;
+            background-color: green;
+            /* 文本居中(上下左右) 字体大小*/
+            text-align: center;
+            line-height: 60px;
+            font-size: 15px;
+            /* 设置边框 */
+            border: 2px solid blue;
+            /* 边框圆角 */
+            border-radius: 10px;
+            /* 上左外边距 */
+            margin-top: 50px;
+            margin-left: 50px;
+            /* 上内边距 */
+            padding-top: 20px;
+            /* 文本删除线 */
+            text-decoration: line-through;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            /* font-weight: bold; */
+            font: 30px 方正魏碑简体;
+        }
+        h1{
+            font-weight: normal;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>这是h1</h1>
+    <p>这是个p</p>
+    
+    <a href="http://www.baidu.com">超链接</a>
+    <div id="d1">
+        今天吃点啥?
+    </div>
+    <div id="d2">写完吃饭</div>
+</body>
+</html>

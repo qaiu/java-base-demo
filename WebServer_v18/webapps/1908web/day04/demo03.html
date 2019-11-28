@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body>div{
+            width: 200px;
+            height: 200px;
+            margin: 100px 0 0 100px;
+            background-color: rgb(255, 0, 0);
+            overflow: hidden;
+        }
+        body>div>div{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 255, 21);
+            margin: 50px 0 0 50px;
+            overflow: hidden;
+            /* 如果想让绝对定位的元素坐标偏移相对于
+            某一个上级元素,需要在上级元素中添加相对定位 */
+            /* position: relative; */
+        }
+        div>div>div{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(0, 132, 255);
+            /* margin: 20px 0 0 20px; */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h5>你好</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

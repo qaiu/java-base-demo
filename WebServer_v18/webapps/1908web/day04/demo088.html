@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font: 12px "simhei", Arial, Helvetica, sans-serif;
+            color: #666;
+        }
+
+        body>div {
+            width: 366px;
+            height: 233px;
+            margin-right: 20px;
+            background-color: #e8e8e8;
+        }
+
+        #top_div {
+            height: 35px;
+            background-color: #0aa1ed;
+            border-radius: 3px;
+        }
+
+        #top_div>img {
+            margin: 10px 0 0 10px;
+        }
+
+        #top_div>span {
+            color: white;
+            font-size: 16px;
+            position: relative;
+            bottom: 5px;
+        }
+
+        #b_div p {
+            font-size: 12px;
+            color: #62b5ec;
+            margin: 17px 0 0px 0;
+        }
+
+        #b_div {
+            padding-left: 12px;
+        }
+
+        #b_div ul {
+            /* 将自带的ul外边距改小 */
+            margin-top: 9px;
+            list-style-type: none;
+            /* 去掉自带的40像素左内边距 */
+            padding: 0;
+            /* 由于ul内部所有li 全部浮动则自动识别高度为0 后面的元素会顶上来
+            可能导致显示异常 */
+            overflow: hidden;
+        }
+
+        #b_div li {
+            float: left;
+            font-size: 12px;
+            margin-right: 10px;
+            
+        }
+
+        li>a {
+            color: #0aa1ed;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="top_div">
+            <img src="http://doc.canglaoshi.org/tstore_v1/images/itemCat/computer_icon1.png" alt="">
+            <span>电脑,办公/1F</span>
+        </div>
+        <div id="b_div">
+
+            <p>电脑整机</p>
+            <ul>
+                <li><a href="#">笔记本</a> </li>
+                <li><a href="#">游戏机</a></li>
+                <li><a href="#">台式机</a></li>
+                <li><a href="#">一体机</a></li>
+                <li><a href="#">服务器</a></li>
+                <li><a href="#">联想</a></li>
+
+            </ul>
+        </div>
+
+        <div id="b_div">
+
+            <p>电脑整机</p>
+            <ul>
+                <li><a href="#">笔记本</a> </li>
+                <li><a href="#">游戏机</a></li>
+                <li><a href="#">台式机</a></li>
+                <li><a href="#">一体机</a></li>
+                <li><a href="#">服务器</a></li>
+                <li><a href="#">联想</a></li>
+            </ul>
+
+        </div>
+        <div id="b_div">
+
+            <p>电脑整机</p>
+            <ul>
+                <li><a href="#">笔记本</a> </li>
+                <li><a href="#">游戏机</a></li>
+                <li><a href="#">台式机</a></li>
+                <li><a href="#">一体机</a></li>
+                <li><a href="#">服务的器</a></li>
+                <li><a href="#">联的想</a></li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+</html>

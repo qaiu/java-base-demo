@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<emp id="3">
+		<name>张三</name>
+		<age>13</age>
+		<salary>4000</salary>
+		<gender>男</gender>
+	</emp>
+	<emp id="3">
+		<name>李四</name>
+		<age>14</age>
+		<salary>2000</salary>
+		<gender>男</gender>
+	</emp>
+	<emp id="3">
+		<name>
+			陈二
+		</name>
+		<age>19</age>
+		<salary>5400</salary>
+		<gender>男</gender>
+	</emp>
+	<emp id="4">
+		<name>皮皮虾</name>
+		<age>28</age>
+		<salary>9300</salary>
+		<gender>男</gender>
+	</emp>
+	<emp id="5">
+		<name>闹太套</name>
+		<age>10</age>
+		<salary>5000</salary>
+		<gender>男</gender>
+	</emp>
+	<test id="12" ip="192.1.1.1" ipp="9999999">
+		<aa>这是文字</aa>
+	</test>
+</list>

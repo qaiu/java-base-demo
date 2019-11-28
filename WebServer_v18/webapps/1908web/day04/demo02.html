@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        div:hover{
+            margin: 20px 0 0 20px; 
+            /* 相对定位:元素通过top/left/right/bottom
+            样式,让元素相对于初始位置做偏移 */
+            /* position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        #d2{
+            /* 绝对定位元素脱离文档流 */
+            position: absolute;
+            /* 元素相对于窗口做位置偏移 */
+            left: 200px;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>div1</div>
+    <div id="d2">div2</div>
+    <div>div3</div>
+</body>
+</html>

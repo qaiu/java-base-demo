@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册表单</title>
+
+</head>
+
+<body">
+    <form action="/1908web/">
+
+        <table border="1" align="center" cellspacing="0">
+            <caption>注册表单</caption>
+            <tr>
+                <td>用户名</td>
+                <td colspan="2"><input type="text" name="username" value="蔡徐坤"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td colspan="2"><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>确认密码</td>
+                <td colspan="2"><input type="password" name="ps"></td>
+            </tr>
+            <tr>
+                <td>昵称</td>
+                <td colspan="2"><input type="text" name="nickname" value="坤坤"></td>
+            </tr>
+            <tr>
+                <td>练习时长</td>
+                <td colspan="2"><input type="text" name="nickname" value="2.5年"></td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td colspan="2">
+                    <input type="radio" name="gander" value="m" id="nan"> <label for="nan">男</label>
+                    <input type="radio" name="gander" value="w" checked="checked" id="nv"> <label for="nv">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>爱好</td>
+                <td colspan="2">
+                    <input type="checkbox" name="gander" value="cy" checked="checked"> 唱
+                    <input type="checkbox" name="gander" value="hj" checked="checked"> 跳
+                    <input type="checkbox" name="gander" value="tt" checked="checked"> 篮球
+                    <input type="checkbox" name="gander" value="tt" checked="checked"> Rap
+                </td>
+            </tr>
+
+            <tr>
+                <td>生日</td>
+                <td colspan="2">
+                    <input type="date" name="date" id="date" value="birthday">
+                </td>
+            </tr>
+            <tr>
+                <td>靓照</td>
+                <td colspan="2">
+                    <input type="file" name="pic" id="pic">
+                </td>
+            </tr>
+
+            <tr>
+                <td>城市</td>
+                <td colspan="2">
+                    <select name="city" id="city">
+                        <option value="a">请选择</option>
+                        <option value="bj">北京</option>
+                        <option selected="selected" svalue="sh">上海</option>
+                        <option value="xg">香港</option>
+                        <option value="jn">济南</option>
+                        <option value="gz">广州</option>
+                        <option value="tj">天津</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>验证码</td>
+                <td><input type="text" name="username"></td>
+                <td><img src="./QQ截图20191025180440.png" alt="验证码" width="80" height="30"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="注册"><br>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

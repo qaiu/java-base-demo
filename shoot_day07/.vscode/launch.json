@@ -1,0 +1,13 @@
+{
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - World",
+            "request": "launch",
+            "mainClass": "cn.tedu.shoot.World",
+            "projectName": "shoot_day05",
+            "args": "-Dfile.encoding=GBK"
+        }
+    ]
+}
